@@ -1,0 +1,9 @@
+{
+  "name": "ul-arrivals-2026",
+  "private": true,
+  "scripts": {
+    "dev": "cd sites/ul-arrivals && python3 -m http.server 8080",
+    "deploy": "appwrite push site --site-id ul-arrivals-2026",
+    "domain": "appwrite proxy create-site-rule --domain ul-arrivals-2026.appwrite.network --site-id ul-arrivals-2026 --force"
+  }
+}

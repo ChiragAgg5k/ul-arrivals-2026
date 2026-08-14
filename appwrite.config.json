@@ -1,0 +1,31 @@
+{
+    "organizationId": "67610b8ee51f147ca943",
+    "projectId": "chirag-project-prod",
+    "projectName": "Main Project",
+    "endpoint": "https://sgp.cloud.appwrite.io/v1",
+    "sites": [
+        {
+            "$id": "ul-arrivals-2026",
+            "name": "UL Arrivals 2026",
+            "path": "sites/ul-arrivals",
+            "framework": "other",
+            "logging": true,
+            "timeout": 30,
+            "buildRuntime": "node-22",
+            "adapter": "static",
+            "installCommand": "",
+            "buildCommand": "",
+            "outputDirectory": "./",
+            "fallbackFile": "",
+            "installationId": "",
+            "providerRepositoryId": "",
+            "providerBranch": "",
+            "providerSilentMode": false,
+            "providerRootDirectory": "",
+            "startCommand": "",
+            "buildSpecification": "s-2vcpu-2gb",
+            "runtimeSpecification": "s-0.5vcpu-512mb",
+            "deploymentRetention": 7
+        }
+    ]
+}
